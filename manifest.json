@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "NewsSip",
-	"description": "Find diverse sources for any article you are reading on the web with a simple click.",
+	"description": "A chrome extension to help you find diverse sources for any article you are reading on the web with just a few clicks.",
 	"version": "1.0.0",
 	"icons": {
 		"128": "icon_128.png"
