@@ -83,3 +83,8 @@ a:hover {
 	font-size: 10px;
 	margin: 0;
 }
+
+.attribution {
+	font-size: 7px;
+	padding: .5em 1em;
+}
