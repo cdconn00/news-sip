@@ -12,16 +12,13 @@ function toggleButtonVisibility() {
 		document.getElementById("selectPageBtn").style["display"] = "inline-block";
 		document.getElementById("cancelBtn").style["display"] = "none";
 	}
-	
 }
 
 function listenForButtonClick() {
 	document.getElementById("selectPageBtn").addEventListener('click', function(e){
 		toggleButtonVisibility();
 
-		var msg = {
-			txt: "textSelected"
-		};
+		var msg = { txt: "textSelected" };
 
 		let params = {
 			active: true,
