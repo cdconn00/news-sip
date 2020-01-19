@@ -1,8 +1,23 @@
 {
 	"manifest_version": 2,
-	"name": "NewsSip",
+	"name": "News Sip",
 	"description": "A chrome extension to help you find diverse sources for any article you are reading on the web with just a few clicks.",
 	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	],
+	"background" : {
+		"scripts": [
+			"background.js"
+		]
+	},
 	"icons": {
 		"128": "icon_128.png"
 	},
@@ -10,5 +25,8 @@
 		"default_icon": "icon.png",
 		"default_popup": "popup.html"
 	},
-	"permissions": ["activeTab"]
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
 }
