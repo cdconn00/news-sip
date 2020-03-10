@@ -2,5 +2,6 @@
 A chrome extension to help you find diverse sources for any article you are reading on the web with just a few clicks.
 
 # Screen Shots
-![](newsipSS1.png)
-![](newsipSS2.png)
+![](newsSipSS1.png)
+![](newsSipSS2.png)
+![](newsSipSS3.png)
